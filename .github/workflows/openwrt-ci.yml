@@ -89,8 +89,8 @@ jobs:
       - name: Deliver package
         uses: actions/upload-artifact@v2
         with:
-          name: OpenWrt_package
-          path: ./artifact/package/
+          name: OpenWrt_package 
+          path: ./artifact/package/ 
 
       - name: Deliver firmware
         uses: actions/upload-artifact@v2
